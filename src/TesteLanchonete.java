@@ -16,10 +16,10 @@ public class TesteLanchonete {
         a3.preco = 10.50;
         a3.marca = "coca-cola 500ml";           
         ////////////////////////////////
-        System.out.println("**********LANCHONETE DO HEITOR**********\n");        
-        System.out.println("Pedidos do cliente: \n");
-        System.out.println("Refrigerante: "+" id produto: "+a3.id+" "+a3.marca+" "+"valor: "+a3.preco);
-        System.out.println("Pizza: "+" id produto: "+a2.id+" "+a2.nomepizza+" "+"valor: "+a2.preco);        
-        System.out.println("Lanche: "+" id produto: "+a1.id+" "+a1.nomelanche+" "+"valor: "+a1.preco);        
+        System.out.println("**********LANCHONETE DO HEITOR**********");        
+        System.out.println("****************************************\nPedidos do cliente: \n****************************************");
+        System.out.println("Refrigerante: \n"+" id produto: "+a3.id+" | Marca: "+a3.marca+" | "+"valor R$: "+a3.preco+"\n******************************");
+        System.out.println("Pizza: \n"+" id produto: "+a2.id+" | sabor: "+a2.nomepizza+" | "+"valor: R$"+a2.preco+"\n******************************");        
+        System.out.println("Lanche: \n"+" id produto: "+a1.id+" | Lanche: "+a1.nomelanche+" | "+"valor: R$"+a1.preco+"\n******************************");        
     } 
 }
